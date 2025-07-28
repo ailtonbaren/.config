@@ -41,6 +41,7 @@ exec --no-startup-id setxkbmap -layout us -variant intl
 exec --no-startup-id sct 4000
 exec --no-startup-id xrandr --output HDMI-2 --mode 1920x1080 --rate 100
 exec --no-startup-id xrandr --output eDP-1 --mode 2560x1600 --rate 60
+exec --no-startup-id xrandr --output eDP-1 --below HDMI-2
 
 tiling_drag modifier titlebar
 
