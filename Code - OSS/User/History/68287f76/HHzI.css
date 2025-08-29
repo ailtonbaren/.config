@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+    font-family: 'JetBrains Mono','DM Sans', sans-serif;
+    @apply transition-colors duration-900 bg-gray-500 dark:bg-cyan-950 text-white m-0;
+}
+
+header {
+    @apply flex justify-between items-center bg-black sticky h-12 top-0;
+    z-index: 50;
+}
+
+footer {
+    @apply text-center p-2 bg-gray-900 text-gray-500 text-sm
+}
+
+h2 {
+    @apply text-teal-500 mb-4 text-center;
+    font-size: 300%
+}
+
+.intro p {
+    @apply text-xl mb-8 text-gray-200;
+}
+
+/*
+.intro {
+    @apply text-left mt-32 ml-12;
+}
+*/
+
+.navColors {
+    @apply transition-colors text-white;
+}
+
+.text {
+    @apply transition-colors text-black dark:text-white;
+}
+
+.btn {
+    @apply shadow-xl border-2 border-teal-500 rounded-lg transition-colors px-4 py-3 text-teal-500 font-bold;
+    @apply hover:bg-teal-500 hover:text-gray-900;
+}
+
+.project a {
+    @apply font-bold text-teal-500;
+}
+
+.project h3 {
+    @apply mt-0;
+}
+
+#contact p{
+    @apply text-center text-base mb-2;
+}
+
+.home {
+    text-align: left;
+}
+
+.about p {
+    @apply text-red-400; 
+}
+
+#skills, #projects, #contact, #about {
+    @apply transition-colors hover:bg-gray-900 rounded-lg;
+}
+
+.section {
+    @apply m-auto max-w-400 px-8 py-16;
+}
+
+/*
+vejo dps
+*/
+
+.project {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #00c9a7;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+#imgs div {
+    @apply transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110;
+    display: inline-table;
+    margin: 5px;
+    max-width: 280px;
+    min-height: 350px;
+    z-index: 10;
+}
+
+.skill {
+    @apply border-2 border-teal-500 rounded-lg transition-colors px-7 py-3 text-white font-bold bg-gray-900;
+}
+ 
+.skills-grid {
+    @apply flex gap-4 justify-center;
+}
+
+#imgs h3 {
+    font-size: 20px;;
+}
+
+.esq {
+    @apply w-full md:max-w-[50%] text-left;
+}
+
+.dir {
+    @apply w-full md:max-w-[50%] ml-auto text-left;
+    font-size: x-large;
+}
+
+

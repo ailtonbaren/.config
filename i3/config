@@ -1,6 +1,6 @@
 set $mod Mod1
 
-font pango:DejaVu 0
+font pango:DejaVu 1
 default_border pixel 0
 floating_modifier $mod
 
@@ -10,21 +10,21 @@ bindsym Ctrl+Shift+equal exec --no-startup-id pactl set-sink-volume @DEFAULT_SIN
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2% && $refresh_i3status
 bindsym Ctrl+Shift+minus exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status\
 
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -d "intel_backlight" s +50
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -d "intel_backlight" s 50-
-bindsym XF86KbdBrightnessDown exec --no-startup-id brightnessctl -d "smc::kbd_backlight" s 20-
-bindsym XF86KbdBrightnessUp exec --no-startup-id brightnessctl -d "smc::kbd_backlight" s +20
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -d "amdgpu_bl1" s +2000
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -d "amdgpu_bl1" s 2000-
+#bindsym XF86KbdBrightnessDown exec --no-startup-id brightnessctl -d "smc::kbd_backlight" s 20-
+#bindsym XF86KbdBrightnessUp exec --no-startup-id brightnessctl -d "smc::kbd_backlight" s +20
 
-bindsym Ctrl+Shift+p exec --no-startup-id flameshot gui
+bindsym Print exec --no-startup-id flameshot gui
 
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
-bindsym Ctrl+Shift+3 exec --no-startup-id playerctl play-pause
+bindsym Ctrl+Shift+2 exec --no-startup-id playerctl play-pause
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
-bindsym Ctrl+Shift+2 exec --no-startup-id playerctl previous
+bindsym Ctrl+Shift+1 exec --no-startup-id playerctl previous
 bindsym XF86AudioNext exec --no-startup-id playerctl next
-bindsym Ctrl+Shift+4 exec --no-startup-id playerctl next
+bindsym Ctrl+Shift+3 exec --no-startup-id playerctl next
 
 bindsym $mod+Return exec kitty
 
@@ -34,16 +34,21 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 
 # execs
 exec --no-startup-id feh --bg-fill ~/Pictures/limbo.png
+
 exec --no-startup-id alttab -d 1
 exec --no-startup-id xcompmgr
 exec --no-startup-id flameshot
-exec --no-startup-id setxkbmap -layout us -variant intl
+exec --no-startup-id setxkbmap -model abnt2 -layout br
+#exec --no-startup-id setxkbmap -layout us -variant intl
 exec --no-startup-id sct 4000
 exec --no-startup-id xrandr --output HDMI-2 --mode 1920x1080 --rate 100
-exec --no-startup-id xrandr --output eDP-1 --mode 2560x1600 --rate 60
+exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --rate 60
 exec --no-startup-id xrandr --output eDP-1 --below HDMI-2
+#exec --no-startup-id brightnessctl -d platform::micmute s 0
+exec --no-startup-id xmodmap ~/.Xmodmap
+exec --no-startup-id keypad
 
-tiling_drag modifier titlebar
+#tiling_drag modifier titlebar
 
 # change focus
 bindsym $mod+j focus left
@@ -150,12 +155,13 @@ mode "resize" {
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
-        bindsym mod+r mode "default"
+        #bindsym mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
 
 bar {
-    status_command i3status
+        status_command i3blocks
 	font pango: DejaVu 12
+	position top
 }

@@ -11,14 +11,13 @@
         "hyprland/mode",
         "hyprland/scratchpad",
         "custom/media",
-        "custom/spotify"
+        "custom/spotify",
+	"custom/waybar-media"
     ],
     "modules-center": [
-                "idle_inhibitor",
-        "hyprland/window"
+	"hyprland/window"
     ],
     "modules-right": [
-        /*"disk",*/
         "network",
         "mpd",
         "pulseaudio",
@@ -26,8 +25,9 @@
         "cpu",
         "memory",
         "temperature",
-        "clock",
-        "tray"
+        "battery",
+	"clock",
+	"tray"
     ],
      /*
      "hyprland/workspaces": {
@@ -70,6 +70,15 @@
       "escape": true
        
     },
+
+"custom/waybar-media": {
+    "return-type": "json",
+    "exec": "waybar-media.py status",
+    "on-click": "waybar-media.py playpause",
+    "on-scroll-up": "waybar-media.py previous",
+    "on-scroll-down": "waybar-media.py next",
+    "escape": true
+},
 
     "keyboard-state": {
         "numlock": true,
@@ -195,7 +204,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "vol: {volume}%",
+        "format":"vol: {volume}%",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",

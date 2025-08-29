@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ailton Baren | Portfólio</title>
+        <link href="src/output.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+    
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">
+                <img src="media/linux-svgrepo-com.svg" class="w-8 text-teal-900 dark:invert" alt="logo">
+            </a>
+            <nav class="no-underline text-white">
+                <a href="#about" class="navColors">Sobre</a>
+                <a href="#skills" class="navColors">Habilidades</a>
+                <a href="#projects" class="navColors">Projetos</a>
+                <a href="#contact" class="navColors">Contato</a>
+                <button style="margin-top: 5px;" id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+				    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+				    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+			    </button>
+            </nav>
+        </header>
+        
+        <main>	
+            <section id="home" class="section home text mb-32">
+                <div class="intro">
+                    <h1 class="text-4xl" >Olá, eu sou <strong>Ailton Baren</strong></h1>
+                    <p>Desenvolvedor e entusiasta de tecnologia.</p>
+                    <a href="#contact" class="btn">Fale comigo</a>
+                </div>
+            </section>
+            
+            <section id="about" class="section">
+                <h2>Sobre Mim</h2>
+                <p class="dir">
+                    Meu nome é Ailton Baren, tenho 20 anos e sou um desenvolvedor e entusiasta da tecnologia. 
+                    Atualmente, estou cursando bacharelado em Engenharia da Computação na UEMA, onde aprofundo
+                    meus conhecimentos para criar soluções inovadoras. Minha paixão vai além do software, envolvendo
+                    também a montagem de computadores e a criação de projetos com ESP32.
+                </p>
+            </section>
+
+            <section id="skills" class="section">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-container">
+                        <div class="skill">HTML</div>
+                        <div class="skill-card">
+                            <svg class="w-16 h-16 mx-auto mb-2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path fill="currentColor" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zM12 3.302l7.59 2.126L20.253 6h-8.253v14.438l-4.26-1.21L7.518 12H12v-2.698h-5.46l.172-2L12 6.602V3.302z"/></svg>
+                            <p>Linguagem de marcação padrão para criar páginas e aplicações web.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-container">
+                        <div class="skill">CSS</div>
+                        <div class="skill-card">
+                            <svg class="w-16 h-16 mx-auto mb-2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><path fill="currentColor" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zM19.42 6.135l.23-2.622H5.438l.462 5.21h8.2l-.23 2.622-2.87.793-2.87-.793-.173-1.95H5.15l.345 3.895L12 20.06l6.505-1.82.932-10.483h-10.017z"/></svg>
+                            <p>Linguagem de folha de estilos usada para descrever a apresentação de um documento HTML.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-container">
+                        <div class="skill">JavaScript</div>
+                         <div class="skill-card">
+                            <svg class="w-16 h-16 mx-auto mb-2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path fill="currentColor" d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.82-2.22-2.152-3.21-1.333-.99-3.18-1.485-5.542-1.485-1.797 0-3.32.315-4.568.945-.24.12-.465.255-.675.39-.36.225-.69.465-.99.72l-1.335 1.14c-.135.12-.225.21-.27.27-.045.06-.09.12-.135.18-.045.06-.09.105-.135.15-.045.045-.09.09-.135.135-.21.21-.405.42-.585.63-.345.39-.63.795-.855 1.215-.225.42-.39.87-.51 1.35-.12.48-.18.975-.18 1.485h2.475c0-.285.03-.555.09-.81.06-.255.135-.495.225-.72.09-.225.21-.435.33-.63.12-.195.27-.375.42-.54.285-.315.63-.57.99-.765.36-.195.75-.345 1.155-.45.405-.105.825-.15 1.26-.15.9 0 1.71.12 2.43.36.72.24 1.275.645 1.665 1.215.39.57.585 1.29.585 2.16 0 .57-.09 1.08-.27 1.53-.18.45-.45.855-.81 1.215-.36.36-.81.66-1.35.9-.54.24-1.14.435-1.8.585-.66.15-1.365.27-2.115.36-.75.09-1.515.15-2.295.18-1.05.045-2.115.06-3.195.06H0v-2.34h6.435c.78 0 1.545-.015 2.295-.045.75-.03 1.47-.09 2.16-.18.69-.09 1.335-.21 1.935-.36.6-.15 1.155-.345 1.665-.585.51-.24.96-.54 1.35-.9.39-.36.705-.78.945-1.26.24-.48.36-1.005.36-1.575 0-.69-.134-1.305-.404-1.845-.27-.54-.675-1.005-1.215-1.395-.54-.39-1.215-.69-2.025-.9-.81-.21-1.74-.315-2.79-.315-1.2 0-2.28.195-3.24.585-.96.39-1.8.96-2.52 1.71l-1.47-1.59c.915-1.02 2.055-1.815 3.42-2.385C13.252 2.07 14.82 1.8 16.59 1.8c2.25 0 4.155.45 5.715 1.35 1.56.9 2.73 2.25 3.51 4.05.78 1.8 1.17 3.87 1.17 6.21 0 2.25-.526 4.215-1.576 5.895-.39.645-.87 1.215-1.44 1.71-.57.495-1.215.9-1.935 1.215-.72.315-1.515.555-2.385.72-.87.165-1.785.255-2.745.255-1.11 0-2.19-.06-3.24-.18-.33-.03-.66-.075-.99-.12-.33-.045-.66-.105-.99-.18-.33-.075-.645-.15-.945-.24-.3-.09-.585-.195-.855-.315l1.545-1.665c.24.09.48.18.72.255.24.075.48.15.735.21.255.06.51.12.765.165.255.045.51.09.765.12.51.06.99.09 1.455.09.84 0 1.635-.09 2.385-.27.75-.18 1.425-.45 2.025-.81.6-.36 1.125-.81 1.575-1.35.45-.54.81-1.17 1.08-1.89.27-.72.405-1.5.405-2.34 0-1.215-.255-2.31-.765-3.285z"/>
+                            </svg>
+                            <p>Linguagem de programação dinâmica de alto nível que permite páginas web interativas.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-container">
+                        <div class="skill">C/C++</div>
+                        <div class="skill-card">
+                            <svg class="w-16 h-16 mx-auto mb-2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C++</title><path fill="currentColor" d="M14.17 8.165h1.72v7.64h-1.72zM18.34 8.165h1.72v7.64h-1.72zM13.25 12h-1.72v-1.72h1.72zm-3.44 0h-1.72v-1.72h1.72zM12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12zm-8.086-7.64c.23-.31.635-.79.8-.97l.385-.43c.18-.2.635-.71.745-.86.43-.59 1.135-1.54 1.25-1.71.2-.27.5-.67.56-.75.24-.32.47-.64.57-.78.1-.14.2-.28.23-.32.22-.3.33-.44.33-.44V4.11L5.91 8.355v7.005zm12.172 0V8.355L13.91 4.11v7.355c0 .02.09.15.22.33.13.18.25.34.33.44.02.02.04.05.07.08.03.03.05.06.06.08.08.1.18.24.25.33.1.13.2.27.27.38.16.22.32.44.41.56.09.12.18.25.22.3.2.28.42.58.55.77.13.19.27.38.33.49z"/></svg>
+                            <p>Linguagens de propósito geral usadas para sistemas, jogos e aplicações de alto desempenho.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-container">
+                        <div class="skill">aLua</div>
+                        <div class="skill-card">
+                            <p>Linguagem de programação leve e de alto nível, projetada para uso embarcado em aplicações.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <h3 class="mt-0">Projetos</h3>
+                        <p>Você pode ver alguns dos meus projetos no meu GitHub.</p>
+                        <a href="https://github.com/ailtonbaren?tab=repositories" class="navColors">Ver no GitHub</a>
+                    </div>
+                    </div>
+            </section>
+
+            <section id="imgs" class="section">
+                <div>
+                    <h3>splashes</h3>
+                    <a href="https://github.com/love2d-community/splashes"><img src="images/splashes.png"></img></a>
+                    <small class="text">A collection of splash screens for LÖVE.</small>
+                </div>
+                
+                <div>
+                    <h3>splashes</h3>
+                    <a href="https://github.com/love2d-community/splashes"><img src="images/splashes.png"></img></a>
+                    <small class="text">A collection of splash screens for LÖVE.</small>
+                </div>
+                
+                <div>
+                    <h3>splashes</h3>
+                    <a href="https://github.com/love2d-community/splashes"><img src="images/splashes.png"></img></a>
+                    <small class="text">A collection of splash screens for LÖVE.</small>
+                </div>
+                
+                <div>
+                    <h3>splashes</h3>
+                    <a href="https://github.com/love2d-community/splashes"><img src="images/splashes.png"></img></a>
+                    <small class="text">A collection of splash screens for LÖVE.</small>
+                </div>
+                
+                <div>
+                    <h3>splashes</h3>
+                    <a href="https://github.com/love2d-community/splashes"><img src="images/splashes.png"></img></a>
+                    <small class="text">A collection of splash screens for LÖVE.</small>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="text">Contato</h2>
+                <p>Email: <a href="mailto:ailtonbarenbr01@gmail.com">ailtonbarenbr01@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/ailton-baren-b49818279/" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/ailtonbaren" target="_blank">GitHub</a></p>
+            </section>		
+        </main>
+
+        <footer class="footer">
+			<p class="text-orange-500 dark:text-blue-400 mt-2 text-sm">funcione pls</p>
+        </footer>
+
+        <script src="app.js"></script>
+	    <script src="btn.js"></script>
+    </body>
+</html>

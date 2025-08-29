@@ -1,0 +1,3 @@
+2025-08-27 11:26:49.827 [info] Started local extension host with pid 11625.
+2025-08-27 11:26:52.467 [error] Error while getting the latest version for the extension anksio.tsoding-emacs-gruber-minimal. Offline
+2025-08-27 11:26:52.842 [info] [perf] Render performance baseline is 38ms

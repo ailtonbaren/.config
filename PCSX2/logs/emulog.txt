@@ -1,0 +1,442 @@
+[    0.1093] Loaded translation file for language en-US
+[    0.1141] PCSX2 v2.4.0
+[    0.1141] Savestate version: 0x9a540000
+[    0.1180] 
+[    0.1180] 
+[    0.1180] Host Machine Init:
+[    0.1183]   Operating System = Arch Linux rolling
+[    0.1183]   Available RAM    = 3395 MB (3.32 GB)
+[    0.1183]   Physical RAM     = 5797 MB (5.66 GB)
+[    0.1183] 
+[    0.1183]   Processor        = AMD Ryzen 5 PRO 3500U
+[    0.1183]   Core Count       = 8 cores
+[    0.1184]   Thread Count     = 8 threads
+[    0.1184]   Cluster Count    = 1 clusters
+[    0.1184] CPU Extensions Detected:
+[    0.1184]   AVX AVX2
+[    0.1184] 
+[    0.1358] SDLInputSource: Using Controller DB from resources.
+[    0.4933] Scanning /home/dynnob/Documents/pcsx2/games (recursively)
+[    0.5079] SDLInputSource: 701 gamepad mappings are loaded.
+[    0.6038] SDLInputSource: Gamepad 1 inserted
+[    0.6041] SDLInputSource: Opened gamepad 1 (instance id 1, player id 0): Zikway HID gamepad
+[    0.6041] SDLInputSource: Gamepad 0 has 6 axes and 19 buttons
+[    0.6041] SDLInputSource: Rumble is supported on 'Zikway HID gamepad' via gamepad
+[    0.6042] SDLInputSource: Gamepad 2 inserted
+[    0.6043] SDLInputSource: Opened gamepad 2 (instance id 2, player id 1): Xbox One Controller
+[    0.6043] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[    0.6044] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[    0.8564] Request for 'https://api.pcsx2.net/v1/nightlyReleases?pageSize=1' returned error 60
+[    0.8565] Updater Error: Failed to download latest release info: 0
+[    0.8565] (AutoUpdaterDialog) All HTTP requests done.
+[    5.2930] Loading BIOS...
+[    5.2967] BIOS Found: USA     v01.60(07/02/2002)  Console 20020207-164243
+[    5.3442] BIOS rom1 module not found, skipping...
+[    5.3443] BIOS rom2 module not found, skipping...
+[    5.3450] Opening CDVD...
+[    5.3461] isoFile open ok: /home/dynnob/Documents/pcsx2/games/bombapatch.iso
+[    5.3462]   Image type  = CD
+[    5.3462]  * CDVD Disk Open: DVD, Single layer or unknown:
+[    5.3462]  * * Track 1: Data (Mode 1) (1145456 sectors)
+[    5.3571] GameDB: Has not been initialized yet, initializing...
+[    5.4133] GameDB: 12827 games on record (loaded in 56.18ms)
+[    5.4161] Disc changed to bombapatch.iso.
+[    5.4161]   Name: ワールドサッカーウイニングイレブン10
+[    5.4161]   Serial: SLPM-66374
+[    5.4161]   Version: 1.02
+[    5.4161]   CRC: F38892BD
+[    5.4163] Applying settings...
+[    5.4238] Reopening memory cards...
+[    5.4241] McdSlot 0 [File]: Mcd001.ps2 [8 MB, UNFORMATTED]
+[    5.4243] McdSlot 1 [File]: Mcd002.ps2 [8 MB, UNFORMATTED]
+[    5.4246] HLE Host: Set 'host:' root path to: /home/dynnob/Documents/pcsx2/games
+[    5.4246] 
+[    5.4247] EE/iR5900 Recompiler Reset
+[    5.7005] Opening GS...
+[    5.7513] Using Vulkan GPU 'AMD Radeon Vega 8 Graphics (RADV RAVEN)' for automatic renderer check.
+[    5.7513] Allowing Vulkan as default renderer.
+[    5.7551] Surface refresh rate: 60.02 hz
+[    5.7650] No GPU requested, using first (AMD Radeon Vega 8 Graphics (RADV RAVEN))
+[    5.7661] VK_EXT_provoking_vertex is supported
+[    5.7661] VK_EXT_memory_budget is supported
+[    5.7661] VK_EXT_calibrated_timestamps is NOT supported
+[    5.7661] VK_EXT_rasterization_order_attachment_access is NOT supported
+[    5.7661] VK_EXT_swapchain_maintenance1 is supported
+[    5.7661] VK_EXT_full_screen_exclusive is NOT supported
+[    5.7661] VK_KHR_driver_properties is supported
+[    5.7661] VK_EXT_attachment_feedback_loop_layout is supported
+[    5.7665] Pipeline cache failed validation: Incorrect UUID
+[    5.7665] Mismatched pipeline cache header in '/home/dynnob/.config/PCSX2/cache/vulkan_shaders.idx' (GPU/driver changed?)
+[    5.7665] Removing existing index file '/home/dynnob/.config/PCSX2/cache/vulkan_shaders.idx'
+[    5.7675] Removing existing blob file '/home/dynnob/.config/PCSX2/cache/vulkan_shaders.bin'
+[    6.8265] Vulkan Graphics Driver Info:
+[    6.8265] Driver 25.2.1
+[    6.8265] Vulkan 1.4.318
+[    6.8265] Conformance Version 1.4.0.0
+[    6.8265] Mesa 25.2.1-arch1.2
+[    6.8265] radv
+[    6.8265] AMD Radeon Vega 8 Graphics (RADV RAVEN)
+[    6.8420] Opening SPU2...
+[    6.8424] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[    6.8526] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[    6.8671] Initializing Pad...
+[    6.8671] Initializing SIO2...
+[    6.8671] Initializing SIO0...
+[    6.8671] Opening DEV9...
+[    6.8707] Opening USB...
+[    6.8707] Opening FW...
+[    6.8745] VM subsystems initialized in 1581.60 ms
+[    6.8751] Failed to inhibit screen saver.
+[    6.8752] Failed to inhibit screen saver.
+[    7.1482] ELF Loading: cdrom0:\SLPM_663.74;1, Game CRC = F38892BD, EntryPoint = 0x00100008
+[    8.6096] ELF cdrom0:\SLPM_663.74;1 with entry point at 0x00100008 is executing.
+[    8.6097] ELF changed, active CRC F38892BD (cdrom0:\SLPM_663.74;1)
+[    8.6103] Applying core settings...
+[    8.6108] Updating CPU configuration...
+[    8.6588] EE/iR5900 Recompiler Reset
+[    9.0920] UpdateVSyncRate: Mode Changed to NTSC.
+[    9.0922] UpdateVSyncRate: Mode Changed to NTSC.
+[    9.8593] UpdateVSyncRate: Mode Changed to NTSC.
+[    9.8595] UpdateVSyncRate: Mode Changed to NTSC.
+[   10.0763] Pad: DS2 Config Finished - P1/S1 - AL: Off - AB: Usable - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[   11.9989] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Usable - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[   12.1951] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D (0x00000000)
+[   12.5120] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   12.7123] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   12.8290] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   28.9116] Applying settings...
+[   29.9128] Pad: DS2 Config Finished - P2/S1 - AL: Off - AB: Usable - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[   30.0128] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Usable - VS: Disabled - VL: Disabled - RB: D (0x00000000)
+[   30.2131] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D (0x00000000)
+[   30.5302] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   30.7303] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   30.8471] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Usable - VS: Normal - VL: Normal - RB: D+A+P (0x0003FFFF)
+[   36.9508] (MapController) Map Pad1/Up to 'SDL-0/DPadUp'
+[   36.9509] (MapController) Map Pad1/Right to 'SDL-0/DPadRight'
+[   36.9509] (MapController) Map Pad1/Down to 'SDL-0/DPadDown'
+[   36.9509] (MapController) Map Pad1/Left to 'SDL-0/DPadLeft'
+[   36.9509] (MapController) Map Pad1/Triangle to 'SDL-0/FaceNorth'
+[   36.9509] (MapController) Map Pad1/Circle to 'SDL-0/FaceEast'
+[   36.9509] (MapController) Map Pad1/Cross to 'SDL-0/FaceSouth'
+[   36.9509] (MapController) Map Pad1/Square to 'SDL-0/FaceWest'
+[   36.9509] (MapController) Map Pad1/Select to 'SDL-0/Back'
+[   36.9509] (MapController) Map Pad1/Start to 'SDL-0/Start'
+[   36.9509] (MapController) Map Pad1/L1 to 'SDL-0/LeftShoulder'
+[   36.9509] (MapController) Map Pad1/L2 to 'SDL-0/+LeftTrigger'
+[   36.9509] (MapController) Map Pad1/R1 to 'SDL-0/RightShoulder'
+[   36.9509] (MapController) Map Pad1/R2 to 'SDL-0/+RightTrigger'
+[   36.9509] (MapController) Map Pad1/L3 to 'SDL-0/LeftStick'
+[   36.9509] (MapController) Map Pad1/R3 to 'SDL-0/RightStick'
+[   36.9509] (MapController) Map Pad1/Analog to 'SDL-0/Guide'
+[   36.9509] (MapController) Map Pad1/LUp to 'SDL-0/-LeftY'
+[   36.9509] (MapController) Map Pad1/LRight to 'SDL-0/+LeftX'
+[   36.9510] (MapController) Map Pad1/LDown to 'SDL-0/+LeftY'
+[   36.9510] (MapController) Map Pad1/LLeft to 'SDL-0/-LeftX'
+[   36.9510] (MapController) Map Pad1/RUp to 'SDL-0/-RightY'
+[   36.9510] (MapController) Map Pad1/RRight to 'SDL-0/+RightX'
+[   36.9510] (MapController) Map Pad1/RDown to 'SDL-0/+RightY'
+[   36.9510] (MapController) Map Pad1/RLeft to 'SDL-0/-RightX'
+[   36.9510] (MapController) Map Pad1/LargeMotor to 'SDL-0/LargeMotor'
+[   36.9510] (MapController) Map Pad1/SmallMotor to 'SDL-0/SmallMotor'
+[   36.9510] (MapController) Map Pad1/SmallMotor to 'SDL-0/SmallMotor'
+[   36.9510] (MapController) Map Pad1/LargeMotor to 'SDL-0/LargeMotor'
+[   36.9530] Applying settings...
+[   40.9667] (MapController) Map Pad2/Up to 'SDL-1/DPadUp'
+[   40.9668] (MapController) Map Pad2/Right to 'SDL-1/DPadRight'
+[   40.9668] (MapController) Map Pad2/Down to 'SDL-1/DPadDown'
+[   40.9668] (MapController) Map Pad2/Left to 'SDL-1/DPadLeft'
+[   40.9668] (MapController) Map Pad2/Triangle to 'SDL-1/FaceNorth'
+[   40.9669] (MapController) Map Pad2/Circle to 'SDL-1/FaceEast'
+[   40.9669] (MapController) Map Pad2/Cross to 'SDL-1/FaceSouth'
+[   40.9669] (MapController) Map Pad2/Square to 'SDL-1/FaceWest'
+[   40.9669] (MapController) Map Pad2/Select to 'SDL-1/Back'
+[   40.9669] (MapController) Map Pad2/Start to 'SDL-1/Start'
+[   40.9669] (MapController) Map Pad2/L1 to 'SDL-1/LeftShoulder'
+[   40.9669] (MapController) Map Pad2/L2 to 'SDL-1/+LeftTrigger'
+[   40.9669] (MapController) Map Pad2/R1 to 'SDL-1/RightShoulder'
+[   40.9669] (MapController) Map Pad2/R2 to 'SDL-1/+RightTrigger'
+[   40.9669] (MapController) Map Pad2/L3 to 'SDL-1/LeftStick'
+[   40.9669] (MapController) Map Pad2/R3 to 'SDL-1/RightStick'
+[   40.9669] (MapController) Map Pad2/Analog to 'SDL-1/Guide'
+[   40.9669] (MapController) Map Pad2/LUp to 'SDL-1/-LeftY'
+[   40.9669] (MapController) Map Pad2/LRight to 'SDL-1/+LeftX'
+[   40.9670] (MapController) Map Pad2/LDown to 'SDL-1/+LeftY'
+[   40.9670] (MapController) Map Pad2/LLeft to 'SDL-1/-LeftX'
+[   40.9670] (MapController) Map Pad2/RUp to 'SDL-1/-RightY'
+[   40.9670] (MapController) Map Pad2/RRight to 'SDL-1/+RightX'
+[   40.9670] (MapController) Map Pad2/RDown to 'SDL-1/+RightY'
+[   40.9670] (MapController) Map Pad2/RLeft to 'SDL-1/-RightX'
+[   40.9670] (MapController) Map Pad2/LargeMotor to 'SDL-1/LargeMotor'
+[   40.9670] (MapController) Map Pad2/SmallMotor to 'SDL-1/SmallMotor'
+[   40.9670] (MapController) Map Pad2/SmallMotor to 'SDL-1/SmallMotor'
+[   40.9670] (MapController) Map Pad2/LargeMotor to 'SDL-1/LargeMotor'
+[   40.9737] Applying settings...
+[   45.0788] BIOS Found: USA     v01.60(07/02/2002)  Console 20020207-164243
+[   62.3495] Surface refresh rate: 60.02 hz
+[   74.0738] BIOS Found: USA     v01.60(07/02/2002)  Console 20020207-164243
+[   74.1253] (VMManager) Pausing...
+[   74.9408] (VMManager) Resuming...
+[   74.9414] Failed to inhibit screen saver.
+[   76.3311] Surface refresh rate: 60.02 hz
+[   82.8152] BIOS Found: USA     v01.60(07/02/2002)  Console 20020207-164243
+[   90.9402] Applying settings...
+[   90.9410] Updating GS configuration...
+[   92.2180] Surface refresh rate: 60.02 hz
+[  159.5982] Surface refresh rate: 60.02 hz
+[  180.9541] Surface refresh rate: 60.02 hz
+[  410.4097] SDLInputSource: Gamepad 2 removed
+[  410.4100] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  410.4208] SDLInputSource: Joystick 2 removed
+[  410.9998] SDLInputSource: Gamepad 4 inserted
+[  411.0009] SDLInputSource: Opened gamepad 4 (instance id 4, player id 1): Xbox One Controller
+[  411.0009] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  411.0009] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  411.0012] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  411.5799] SDLInputSource: Gamepad 4 removed
+[  411.5802] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  411.5948] SDLInputSource: Joystick 4 removed
+[  412.1728] SDLInputSource: Gamepad 5 inserted
+[  412.1739] SDLInputSource: Opened gamepad 5 (instance id 5, player id 1): Xbox One Controller
+[  412.1739] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  412.1739] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  412.1742] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  521.3874] SDLInputSource: Gamepad 5 removed
+[  521.3878] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  521.3978] SDLInputSource: Joystick 5 removed
+[  521.9958] SDLInputSource: Gamepad 6 inserted
+[  521.9959] SDLInputSource: Opened gamepad 6 (instance id 6, player id 1): Xbox One Controller
+[  521.9960] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  521.9960] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  521.9962] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  522.3406] SDLInputSource: Gamepad 6 removed
+[  522.3409] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  522.3517] SDLInputSource: Joystick 6 removed
+[  522.8688] SDLInputSource: Gamepad 7 inserted
+[  522.8701] SDLInputSource: Opened gamepad 7 (instance id 7, player id 1): Xbox One Controller
+[  522.8701] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  522.8701] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  522.8702] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  522.9580] SDLInputSource: Gamepad 7 removed
+[  522.9583] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  522.9698] SDLInputSource: Joystick 7 removed
+[  524.1868] SDLInputSource: Gamepad 8 inserted
+[  524.1881] SDLInputSource: Opened gamepad 8 (instance id 8, player id 1): Xbox One Controller
+[  524.1881] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  524.1881] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  524.1884] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  525.9610] SDLInputSource: Gamepad 8 removed
+[  525.9614] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  525.9738] SDLInputSource: Joystick 8 removed
+[  526.7438] SDLInputSource: Gamepad 9 inserted
+[  526.7451] SDLInputSource: Opened gamepad 9 (instance id 9, player id 1): Xbox One Controller
+[  526.7451] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  526.7451] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  526.7455] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  533.0342] SDLInputSource: Gamepad 9 removed
+[  533.0345] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  533.0508] SDLInputSource: Joystick 9 removed
+[  533.5798] SDLInputSource: Gamepad 10 inserted
+[  533.5811] SDLInputSource: Opened gamepad 10 (instance id 10, player id 1): Xbox One Controller
+[  533.5811] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  533.5812] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  533.5815] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  534.1688] SDLInputSource: Gamepad 10 removed
+[  534.1691] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  534.1797] SDLInputSource: Joystick 10 removed
+[  534.7728] SDLInputSource: Gamepad 11 inserted
+[  534.7741] SDLInputSource: Opened gamepad 11 (instance id 11, player id 1): Xbox One Controller
+[  534.7741] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  534.7741] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  534.7744] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  535.1198] SDLInputSource: Gamepad 11 removed
+[  535.1201] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  535.1318] SDLInputSource: Joystick 11 removed
+[  536.7508] SDLInputSource: Gamepad 12 inserted
+[  536.7510] SDLInputSource: Opened gamepad 12 (instance id 12, player id 1): Xbox One Controller
+[  536.7511] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  536.7511] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  536.7515] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  537.2055] SDLInputSource: Gamepad 12 removed
+[  537.2057] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  537.2167] SDLInputSource: Joystick 12 removed
+[  538.5538] SDLInputSource: Gamepad 13 inserted
+[  538.5540] SDLInputSource: Opened gamepad 13 (instance id 13, player id 1): Xbox One Controller
+[  538.5540] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  538.5540] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  538.5541] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  596.2485] SDLInputSource: Gamepad 13 removed
+[  596.2488] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  596.2618] SDLInputSource: Joystick 13 removed
+[  596.7708] SDLInputSource: Gamepad 14 inserted
+[  596.7711] SDLInputSource: Opened gamepad 14 (instance id 14, player id 1): Xbox One Controller
+[  596.7711] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  596.7712] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  596.7714] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  597.3800] SDLInputSource: Gamepad 14 removed
+[  597.3802] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  597.3907] SDLInputSource: Joystick 14 removed
+[  597.9557] SDLInputSource: Gamepad 15 inserted
+[  597.9681] SDLInputSource: Opened gamepad 15 (instance id 15, player id 1): Xbox One Controller
+[  597.9682] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  597.9682] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  597.9684] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  615.9172] SDLInputSource: Gamepad 15 removed
+[  615.9175] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  615.9308] SDLInputSource: Joystick 15 removed
+[  616.6678] SDLInputSource: Gamepad 16 inserted
+[  616.6682] SDLInputSource: Opened gamepad 16 (instance id 16, player id 1): Xbox One Controller
+[  616.6682] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  616.6682] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  616.6684] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  617.2691] SDLInputSource: Gamepad 16 removed
+[  617.2693] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  617.2828] SDLInputSource: Joystick 16 removed
+[  617.8288] SDLInputSource: Gamepad 17 inserted
+[  617.8292] SDLInputSource: Opened gamepad 17 (instance id 17, player id 1): Xbox One Controller
+[  617.8292] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  617.8292] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  617.8295] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  618.9516] SDLInputSource: Gamepad 17 removed
+[  618.9519] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  618.9598] SDLInputSource: Joystick 17 removed
+[  620.3928] SDLInputSource: Gamepad 18 inserted
+[  620.3931] SDLInputSource: Opened gamepad 18 (instance id 18, player id 1): Xbox One Controller
+[  620.3931] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  620.3931] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  620.3935] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  621.7728] SDLInputSource: Gamepad 18 removed
+[  621.7731] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  621.7917] SDLInputSource: Joystick 18 removed
+[  629.4377] SDLInputSource: Gamepad 19 inserted
+[  629.4379] SDLInputSource: Opened gamepad 19 (instance id 19, player id 1): Xbox One Controller
+[  629.4379] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  629.4379] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  629.4382] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  629.4973] SDLInputSource: Gamepad 19 removed
+[  629.4976] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  629.5057] SDLInputSource: Joystick 19 removed
+[  630.9198] SDLInputSource: Gamepad 20 inserted
+[  630.9202] SDLInputSource: Opened gamepad 20 (instance id 20, player id 1): Xbox One Controller
+[  630.9202] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  630.9202] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  630.9204] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  631.5494] SDLInputSource: Gamepad 20 removed
+[  631.5497] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  631.5668] SDLInputSource: Joystick 20 removed
+[  632.1338] SDLInputSource: Gamepad 21 inserted
+[  632.1362] SDLInputSource: Opened gamepad 21 (instance id 21, player id 1): Xbox One Controller
+[  632.1362] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  632.1363] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  632.1366] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  661.8612] SDLInputSource: Gamepad 21 removed
+[  661.8615] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  661.8698] SDLInputSource: Joystick 21 removed
+[  662.4498] SDLInputSource: Gamepad 22 inserted
+[  662.4500] SDLInputSource: Opened gamepad 22 (instance id 22, player id 1): Xbox One Controller
+[  662.4500] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  662.4500] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  662.4502] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  662.6308] SDLInputSource: Gamepad 22 removed
+[  662.6311] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  662.6388] SDLInputSource: Joystick 22 removed
+[  663.1158] SDLInputSource: Gamepad 23 inserted
+[  663.1162] SDLInputSource: Opened gamepad 23 (instance id 23, player id 1): Xbox One Controller
+[  663.1162] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  663.1162] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  663.1165] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  663.7659] SDLInputSource: Gamepad 23 removed
+[  663.7661] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  663.7758] SDLInputSource: Joystick 23 removed
+[  664.3378] SDLInputSource: Gamepad 24 inserted
+[  664.3380] SDLInputSource: Opened gamepad 24 (instance id 24, player id 1): Xbox One Controller
+[  664.3380] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  664.3380] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  664.3382] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  668.3510] SDLInputSource: Gamepad 24 removed
+[  668.3512] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  668.3638] SDLInputSource: Joystick 24 removed
+[  668.8798] SDLInputSource: Gamepad 25 inserted
+[  668.8802] SDLInputSource: Opened gamepad 25 (instance id 25, player id 1): Xbox One Controller
+[  668.8802] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  668.8802] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  668.8804] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  669.4855] SDLInputSource: Gamepad 25 removed
+[  669.4858] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  669.4918] SDLInputSource: Joystick 25 removed
+[  670.2338] SDLInputSource: Gamepad 26 inserted
+[  670.2342] SDLInputSource: Opened gamepad 26 (instance id 26, player id 1): Xbox One Controller
+[  670.2342] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  670.2343] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  670.2344] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  670.5385] SDLInputSource: Gamepad 26 removed
+[  670.5388] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  670.5448] SDLInputSource: Joystick 26 removed
+[  671.0469] SDLInputSource: Gamepad 27 inserted
+[  671.0470] SDLInputSource: Failed to open controller 27
+[  671.0470] SDLInputSource: Gamepad 27 removed
+[  671.0470] SDLInputSource: Joystick 27 removed
+[  671.5658] SDLInputSource: Gamepad 28 inserted
+[  671.5762] SDLInputSource: Opened gamepad 28 (instance id 28, player id 1): Xbox One Controller
+[  671.5763] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  671.5763] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  671.5765] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  672.1903] SDLInputSource: Gamepad 28 removed
+[  672.1906] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  672.1988] SDLInputSource: Joystick 28 removed
+[  672.7788] SDLInputSource: Gamepad 29 inserted
+[  672.7793] SDLInputSource: Opened gamepad 29 (instance id 29, player id 1): Xbox One Controller
+[  672.7793] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  672.7793] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  672.7797] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  769.9526] SDLInputSource: Gamepad 29 removed
+[  769.9528] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  769.9717] SDLInputSource: Joystick 29 removed
+[  770.4788] SDLInputSource: Gamepad 30 inserted
+[  770.4794] SDLInputSource: Opened gamepad 30 (instance id 30, player id 1): Xbox One Controller
+[  770.4794] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  770.4794] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  770.4796] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  771.1058] SDLInputSource: Gamepad 30 removed
+[  771.1060] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  771.1178] SDLInputSource: Joystick 30 removed
+[  771.8838] SDLInputSource: Gamepad 31 inserted
+[  771.8844] SDLInputSource: Opened gamepad 31 (instance id 31, player id 1): Xbox One Controller
+[  771.8844] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  771.8844] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  771.8848] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  853.7385] SDLInputSource: Gamepad 31 removed
+[  853.7388] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  853.7498] SDLInputSource: Joystick 31 removed
+[  854.2478] SDLInputSource: Gamepad 32 inserted
+[  854.2480] SDLInputSource: Opened gamepad 32 (instance id 32, player id 1): Xbox One Controller
+[  854.2480] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  854.2481] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  854.2485] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  854.8737] SDLInputSource: Gamepad 32 removed
+[  854.8739] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  854.8838] SDLInputSource: Joystick 32 removed
+[  855.4538] SDLInputSource: Gamepad 33 inserted
+[  855.4545] SDLInputSource: Opened gamepad 33 (instance id 33, player id 1): Xbox One Controller
+[  855.4545] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  855.4545] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  855.4548] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  976.8094] SDLInputSource: Gamepad 33 removed
+[  976.8096] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  976.8207] SDLInputSource: Joystick 33 removed
+[  977.3268] SDLInputSource: Gamepad 34 inserted
+[  977.3276] SDLInputSource: Opened gamepad 34 (instance id 34, player id 1): Xbox One Controller
+[  977.3276] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  977.3276] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  977.3280] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[  977.9623] SDLInputSource: Gamepad 34 removed
+[  977.9625] OSD [controller_connected_SDL-1]: Controller SDL-1 disconnected.
+[  977.9747] SDLInputSource: Joystick 34 removed
+[  978.5358] SDLInputSource: Gamepad 35 inserted
+[  978.5366] SDLInputSource: Opened gamepad 35 (instance id 35, player id 1): Xbox One Controller
+[  978.5367] SDLInputSource: Gamepad 1 has 6 axes and 11 buttons
+[  978.5367] SDLInputSource: Rumble is supported on 'Xbox One Controller' via gamepad
+[  978.5372] OSD [controller_connected_SDL-1]: Controller SDL-1 connected.
+[ 1027.9438] (VMManager) Pausing...
+[ 1029.5776] Add 1020 seconds play time to SLPM-66374 -> now 1020
+[ 1029.8573] Writing 308208 bytes to '/home/dynnob/.config/PCSX2/cache/vulkan_pipelines.bin'
+[ 1029.9779] Releasing host memory for virtual systems...

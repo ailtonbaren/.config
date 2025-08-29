@@ -1,0 +1,5 @@
+2025/08/29-08:53:43.311 c9d6 Creating DB /home/dynnob/.config/YouTube Music/Local Storage/leveldb since it was missing.
+2025/08/29-08:53:43.359 c9d6 Reusing MANIFEST /home/dynnob/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/08/29-11:24:53.488 c9d7 Level-0 table #5: started
+2025/08/29-11:24:53.501 c9d7 Level-0 table #5: 15598 bytes OK
+2025/08/29-11:24:53.518 c9d7 Delete type=0 #3

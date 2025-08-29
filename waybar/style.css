@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrains Mono,Roboto, Arial, sans-serif;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 window#waybar {
@@ -117,13 +117,13 @@ button:hover {
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: #0d572c;
 }
 
 @keyframes blink {
@@ -135,7 +135,7 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
+    background-color: #731616;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -193,14 +193,22 @@ label:focus {
 
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 #custom-media {
     background-color: #66cc99;
     color: #2a5c45;
     min-width: 100px;
+}
+
+#custom-waybar-media.playing {
+    color: #77eb34;
+}
+
+#custom-waybar-media.paused {
+    color: #b0b0b0;
 }
 
 #custom-media.custom-spotify {

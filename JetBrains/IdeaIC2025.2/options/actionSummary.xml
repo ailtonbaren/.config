@@ -1,0 +1,118 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1756419968396" />
+    </e>
+    <e n="$Undo">
+      <i c="6" l="1756420111281" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="21" l="1756420195621" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="6" l="1756420164835" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="75" l="1756420130733" />
+    </e>
+    <e n="EditorDown">
+      <i c="16" l="1756420147056" />
+    </e>
+    <e n="EditorEnter">
+      <i c="6" l="1756420241484" />
+    </e>
+    <e n="EditorLeft">
+      <i c="7" l="1756420130118" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="1" l="1756419881042" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="21" l="1756420132204" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="1" l="1756420106883" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="11" l="1756420130294" />
+    </e>
+    <e n="EditorRight">
+      <i c="7" l="1756420143864" />
+    </e>
+    <e n="EditorSelectWord">
+      <i c="2" l="1756419970904" />
+    </e>
+    <e n="EditorTab">
+      <i c="1" l="1756420133767" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="1" l="1756420269479" />
+    </e>
+    <e n="EditorUp">
+      <i c="15" l="1756420147260" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="5" l="1756419872459" />
+    </e>
+    <e n="GotoClass">
+      <i c="1" l="1756420050957" />
+    </e>
+    <e n="JShell.Console">
+      <i c="1" l="1756420237817" />
+    </e>
+    <e n="NewClass">
+      <i c="1" l="1756420059888" />
+    </e>
+    <e n="NewFile">
+      <i c="1" l="1756419989984" />
+    </e>
+    <e n="NewProject">
+      <i c="2" l="1756419719667" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1756420265273" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1756420171156" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1756420271662" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1756420274758" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1756420258355" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1756419649677" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1756419975105" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="1" l="1756420187741" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1756420053856" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1756420300476" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="1" l="1756419689409" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="2" l="1756419702206" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1756420214001" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1756419705679" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1756419753222" />
+    </e>
+  </component>
+</application>

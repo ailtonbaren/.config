@@ -1,0 +1,96 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "7c94ec045cde60be6cbfe752e2bc0d5363e58f56a2d409b2a25a1a82ab681e13",
+    "telemetry.devDeviceId": "ef932a1c-9929-4a67-a6b2-373e0326af60",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1756284770938"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/dynnob/repos/port1": "__default__profile__",
+            "file:///home/dynnob/repos/love2d-community.github.io": "__default__profile__",
+            "file:///home/dynnob/repos/portfolio": "__default__profile__",
+            "file:///home/dynnob/Arduino": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1756284770938": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/dynnob/.config/Code - OSS/Backups/1756284770938",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 25,
+                "width": 1920,
+                "height": 1055
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#090909",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#b1a69f",
+            "background": "#090909",
+            "editorBackground": "#090909",
+            "titleBarBackground": "#090909",
+            "titleBarBorder": "#090909",
+            "activityBarBackground": "#090909",
+            "activityBarBorder": "#090909",
+            "sideBarBackground": "#090909",
+            "sideBarBorder": "#090909",
+            "statusBarBackground": "#040404",
+            "statusBarNoFolderBackground": "#090909"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "f51bfb06f4769aaeed7d0d121a8ffbc4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fb0fe2abd07f418686d56ca716d5bab3": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "8d6dc1337dcbea5840b47a161409afef": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "27d11080e4d6a16082b5c85ef8ac61bd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "90e18b1d6b3f7ac2d428f9a744ee0454": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

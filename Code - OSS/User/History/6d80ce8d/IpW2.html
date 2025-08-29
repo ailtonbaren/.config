@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ailton Baren - Portfólio</title>
+        <link href="src/output.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <header class="header flex justify-between items-center relative px-2">
+        <a href="#home" class="logo">
+        <img src="images/linux-svgrepo-com.svg" class="tux w-8 text-teal-900 invert dark:invert" alt="logo">
+        </a>
+        <button id="menu-btn" class="md:hidden p-2 rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+        <nav id="menu-links" class="hidden md:flex md:items-center md:gap-4 no-underline text-white">
+            <a href="#about" class="navColors">Sobre Mim</a>
+            <a href="#skills" class="navColors">Habilidades</a>
+            <a href="#imgs" class="navColors">Projetos</a>
+            <a href="#contact" class="navColors ">Contato</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section home text mb-32 fade-in-section">
+            <div class="intro">
+                <h1 class="text-4xl" >Olá, eu sou <strong class="text-blue-400">Ailton Baren</strong></h1>
+                <p>Desenvolvedor e entusiasta de tecnologia.</p>
+                <a href="#contact" class="btn">Fale comigo</a>
+            </div>
+        </section>
+
+        <section id="about" class="section fade-in-section">
+            <h2>Sobre Mim</h2>
+            <div class="flex items-center">
+                <img src="images/gear.svg" alt="engrenagem" class="gear">
+                <p class="dir">
+                    Meu nome é Ailton Baren, tenho 20 anos e sou um desenvolvedor e entusiasta da tecnologia.
+                    Atualmente, estou cursando bacharelado em Engenharia da Computação na UEMA, onde aprofundo
+                    meus conhecimentos para criar soluções inovadoras. Minha paixão vai além do software, envolvendo
+                    também a montagem de computadores e a criação de projetos com ESP32.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section fade-in-section">
+            <h2>Habilidades</h2>
+            <p class="text-lg text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+                Além do desenvolvimento de software, tenho um grande interesse pela parte física da computação. Possuo experiência com montagem e manutenção de computadores, garantindo a otimização do hardware. Paralelamente, dedico-me a projetos de eletrônica com a plataforma ESP32, criando soluções interativas com diversos tipos de sensores.
+            </p>
+            <div class="skills-grid">
+                <div class="skill-container">
+                    <div class="skill html">HTML</div>
+                    <div class="skill-card">
+                        <img src="images/html.svg" alt="Ícone do HTML" class="w-16 h-16 mx-auto mb-2">
+                        <p>Linguagem de marcação padrão para criar páginas e aplicações web.</p>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <div class="skill tail">Tailwind CSS</div>
+                    <div class="skill-card">
+                        <img src="images/tailwind.svg" alt="Tailwind CSS" class="w-16 h-16 mx-auto mb-2">
+                        <p>Linguagem de folha de estilos usada para descrever a apresentação de um documento HTML.</p>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <div class="skill js">JavaScript</div>
+                    <div class="skill-card">
+                        <img src="images/js.svg" alt="JS" class="w-16 h-16 mx-auto mb-2">
+                        <p>Linguagem de programação dinâmica de alto nível que permite a criação páginas web interativas.</p>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <div class="skill cpp">C/C++</div>
+                    <div class="skill-card">
+                        <img src="images/cpp.svg" alt="C/C++" class="w-16 h-16 mx-auto mb-2">
+                        <p>Linguagens de propósito geral usadas para sistemas, jogos e aplicações de alto desempenho.</p>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <div class="skill bash">Bash</div>
+                    <div class="skill-card">
+                        <img src="images/bash.svg" alt="Bash" class="w-16 h-16 mx-auto mb-2">
+                        <p>Shell de comando e linguagem de script utilizada para automação de tarefas e gerenciamento em sistemas operacionais Unix-like.</p>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <div class="skill lua">Lua</div>
+                    <div class="skill-card">
+                        <img src="images/lua.svg" alt="Lua" class="w-16 h-16 mx-auto mb-2">
+                        <p>Linguagem de programação leve e de alto nível, projetada para uso embarcado em aplicações e scripting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section fade-in-section esq">
+            <h2>Projetos</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3 class="mt-0 text-4xl"></h3>
+                    <p class="text-[18px]">Você pode ver alguns dos meus projetos no meu GitHub.</p>
+                    <br>
+                    <a href="[https://github.com/ailtonbaren?tab=repositories](https://github.com/ailtonbaren?tab=repositories)" class="navColors btnGit">Ver no GitHub</a>
+                </div>
+                <p></p>
+            </div>
+        </section>
+
+        <section id="imgs" class="section fade-in-section">
+            <div class="project-container">
+                <div class="project-media">
+                    <a href="[https://github.com/ailtonbaren/esp32-audio](https://github.com/ailtonbaren/esp32-audio)">
+                    <img src="images/esp.jpg" alt="esp32-audio">
+                    </a>
+                </div>
+                <div class="project-description">
+                    <a href="[https://github.com/ailtonbaren/esp32-audio](https://github.com/ailtonbaren/esp32-audio)">
+                        <h3>esp32-audio</h3>
+                    </a>
+                    <p class="text">Um projeto simples que usa um ESP32-DevKit com um sensor ultrassônico
+                        HC-SR04 para detectar objetos que se aproximam e reproduzir arquivos de áudio
+                         armazenados em um módulo de cartão SD.
+                    </p>
+                </div>
+            </div>
+            <div class="project-container reverse">
+                <div class="project-media">
+                    <a href="[https://github.com/ailtonbaren/projetoPortfolioAlura](https://github.com/ailtonbaren/projetoPortfolioAlura)">
+                    <img src="images/portAlura.png" alt="Projeto Portfólio Alura">
+                    </a>
+                </div>
+                <div class="project-description">
+                    <a href="[https://github.com/ailtonbaren/projetoPortfolioAlura](https://github.com/ailtonbaren/projetoPortfolioAlura)">
+                        <h3>Projeto Portfólio Alura</h3>
+                    </a>
+                    <p class="text">Página de portfólio desenvolvida com HTML e CSS no curso da Alura.</p>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-media">
+                    <a href="[https://github.com/ailtonbaren/kbdlight](https://github.com/ailtonbaren/kbdlight)">
+                    <img src="images/mbp.jpg" alt="Projeto kbdlight">
+                    </a>
+                </div>
+                <div class="project-description animText">
+                    <a href="[https://github.com/ailtonbaren/kbdlight](https://github.com/ailtonbaren/kbdlight)">
+                        <h3>kbdlight</h3>
+                    </a>
+                    <p class="text">Um simples script em Bash utilizando brightnessctl
+                        para criar efeitos em teclados retroiluminados.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section fade-in-section">
+            <h2 class="text">Contato</h2>
+            <p class="text-lg text-gray-300 text-center mb-8">
+                Gostaria de conversar? Sinta-se à vontade para me enviar uma mensagem.
+            </p>
+            <div class="contact-links">
+                <a href="[https://github.com/ailtonbaren](https://github.com/ailtonbaren)" target="_blank" class="contact-link-item" aria-label="GitHub">
+                <img src="images/github.svg" alt="GitHub" class="contact-icon">
+                </a>
+                <a href="[https://www.linkedin.com/in/ailton-baren-b49818279/](https://www.linkedin.com/in/ailton-baren-b49818279/)" target="_blank" class="contact-link-item" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="mailto:ailtonbarenbr01@gmail.com" class="contact-link-item" aria-label="Email">
+                    <svg class="contact-icon" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.803V4.697l-5.803 3.558z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="text-orange-500 dark:text-blue-400 mt-2 text-sm">Desenvolvido por Ailton Baren.</p>
+    </footer>
+    <script src="btn.js"></script>
+    <script src="menu.js"></script>
+    <script src="scroll-animation.js"></script>
+
+</body>
+</html>

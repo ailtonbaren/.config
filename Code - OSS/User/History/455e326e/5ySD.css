@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+/*
+@custom-variant dark (&:where(.dark, .dark *));
+*/
+
+body {
+    font-family: 'JetBrains Mono','DM Sans', sans-serif;
+    @apply transition-colors duration-900 bg-cyan-950 text-white m-0;
+}
+
+header {
+    @apply flex justify-between items-center bg-black sticky h-12 top-0;
+    z-index: 50;
+}
+
+footer {
+    @apply text-center p-2 bg-gray-900 text-gray-500 text-sm
+}
+
+h2 {
+    @apply text-teal-500 mb-4 text-center;
+    font-size: 300%
+}
+
+.intro p {
+    @apply text-xl mb-8 text-gray-200;
+}
+
+.navColors {
+    @apply transition-colors text-white rounded-md px-3 py-2;
+    @apply hover:text-red-400 hover:bg-cyan-950;
+}
+
+.navColors:hover {
+    animation: blink-bg 1s infinite step-end;
+}
+
+.text {
+    @apply text-white;
+}
+
+.btn {
+    @apply shadow-xl border-2 border-teal-500 rounded-lg transition-colors px-4 py-3 text-teal-500 font-bold;
+    @apply hover:bg-teal-500 hover:text-gray-900 hover:border-red-400 duration-300;
+}
+
+.project a {
+    @apply font-bold text-teal-500;
+}
+
+.project h3 {
+    @apply mt-0;
+}
+
+#contact p{
+    @apply text-center text-base mb-2;
+}
+
+.skill {
+    @apply hover:border-red-400 duration-300 border-2 border-teal-500 rounded-lg transition-colors px-7 py-3 text-white font-bold bg-gray-900;
+}
+
+.html {
+    @apply hover:bg-[#592e00];
+}
+
+.tail {
+    @apply hover:bg-[#007d80];
+}
+
+.js {
+    @apply hover:text-black hover:bg-[#969400];
+}
+
+.cpp {
+    @apply hover:bg-[#004a80];
+}
+
+.bash {
+    @apply hover:bg-[#000000];
+}
+
+.lua {
+    @apply hover:bg-[#000861];
+}
+
+
+.skills-grid {
+    @apply flex flex-row flex-wrap gap-4 items-center justify-center;
+}
+
+.home {
+    text-align: left;
+}
+
+.about p {
+    @apply text-red-400; 
+}
+
+#skills, #projects, #contact, #about, #imgs {
+    @apply transition-colors hover:bg-gray-900 rounded-lg;
+    @apply border-2 border-transparent transition-colors duration-700 hover:border-[#154512];
+}
+
+.btnGit{
+    @apply mt-8;
+}
+
+.section {
+    @apply m-auto max-w-400 px-8 py-32;
+}
+
+/*
+vejo dps
+*/
+
+.project {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #00c9a7;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+#imgs {
+    @apply flex flex-wrap justify-center items-start gap-4;
+}
+
+#imgs div {
+    @apply transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110;
+    display: inline-table;
+    margin: 5px;
+    max-width: 500px;
+    min-height: 500px;
+    z-index: 10;
+}
+
+#imgs h3 {
+    font-size: 20px;;
+}
+
+.esq {
+    @apply w-full md:max-w-[50%] text-left;
+}
+
+.dir {
+    @apply w-full md:max-w-[50%] ml-auto text-left;
+    font-size: x-large;
+}
+
+.skill-container {
+    @apply relative;
+}
+
+.skill-card {
+    @apply absolute top-full left-1/2 -translate-x-1/2 mb-2 w-72;
+    @apply bg-gray-800 text-gray-300 text-center text-base rounded-lg p-6 shadow-lg;
+    @apply opacity-0 invisible pointer-events-none;
+    @apply transition-all duration-300 ease-in-out;
+    @apply transform translate-y-2;
+    z-index: 10;
+}
+
+.skill-card svg {
+    @apply text-teal-400;
+}
+
+.skill-container:hover .skill-card {
+    @apply opacity-100 visible pointer-events-auto;
+    @apply transform translate-y-0;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mobile-menu {
+    @apply absolute top-full left-0 right-0 bg-black;
+    @apply flex flex-col items-center gap-4 p-4;
+}
